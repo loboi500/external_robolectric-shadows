@@ -1,21 +1,3 @@
-LOCAL_PATH := $(call my-dir)
-
-include $(call first-makefiles-under, $(LOCAL_PATH))
-
-##############################################
-# Run all Robolectric tests
-##############################################
-include $(CLEAR_VARS)
-
-.PHONY: Run_robolectric_test_suite
-
-Run_robolectric_test_suite: \
-  Run_robolectric_utils_tests \
-  Run_robolectric_sandbox_tests \
-  Run_robolectric_processor_tests \
-  Run_robolectric_resources_tests \
-  Run_robolectric_shadowapi_tests \
-  Run_robolectric_robolectric_tests \
-  Run_robolectric_shadows_supportv4_tests \
-  Run_robolectric_shadows_httpclient_tests \
-  Run_robolectric_shadows_androidx_fragment_tests
+version https://git-lfs.github.com/spec/v1
+oid sha256:e85d0bc499d1f9db195dcdbe6525c2d28c39ea20836a995df19d78d8f9a68078
+size 646

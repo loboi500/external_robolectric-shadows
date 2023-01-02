@@ -1,18 +1,3 @@
-LOCAL_PATH := $(call my-dir)
-
-##############################################
-# Execute Robolectric shadowapi tests
-##############################################
-include $(CLEAR_VARS)
-
-LOCAL_MODULE := Run_robolectric_shadowapi_tests
-LOCAL_LICENSE_KINDS := SPDX-license-identifier-Apache-2.0
-LOCAL_LICENSE_CONDITIONS := notice
-LOCAL_NOTICE_FILE := $(LOCAL_PATH)/../LICENSE
-
-test_source_directory := $(LOCAL_PATH)/src/test/java
-
-test_runtime_libraries := \
-  Robolectric_shadowapi_tests
-
-include external/robolectric-shadows/run_robolectric_module_tests.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:7917c3359f46aeb5a5d244e602144696360b5116ec050f33c364cb62910582c4
+size 555

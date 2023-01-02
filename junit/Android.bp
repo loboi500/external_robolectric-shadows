@@ -1,30 +1,3 @@
-//##########################################
-// Compile Robolectric junit
-//##########################################
-
-package {
-    // See: http://go/android-license-faq
-    // A large-scale-change added 'default_applicable_licenses' to import
-    // all of the 'license_kinds' from "external_robolectric-shadows_license"
-    // to get the below license kinds:
-    //   SPDX-license-identifier-MIT
-    default_applicable_licenses: ["external_robolectric-shadows_license"],
-}
-
-java_library_host {
-    name: "Robolectric_junit",
-    libs: [
-        "Robolectric_annotations",
-        "Robolectric_shadowapi",
-        "Robolectric_sandbox",
-        "Robolectric_utils",
-        "asm-commons-6.0",
-        "guava",
-        "asm-tree-6.0",
-        "hamcrest",
-        "junit",
-        "asm-6.0",
-        "jsr305",
-    ],
-    srcs: ["src/main/java/**/*.java"],
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fae9b9744c277f54ea9af83dd9b8e684f358e690bc71bf326c59274a3197bc3
+size 859

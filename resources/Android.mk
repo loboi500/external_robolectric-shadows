@@ -1,18 +1,3 @@
-LOCAL_PATH := $(call my-dir)
-
-##############################################
-# Execute Robolectric resources tests
-##############################################
-include $(CLEAR_VARS)
-
-LOCAL_MODULE := Run_robolectric_resources_tests
-LOCAL_LICENSE_KINDS := SPDX-license-identifier-Apache-2.0
-LOCAL_LICENSE_CONDITIONS := notice
-LOCAL_NOTICE_FILE := $(LOCAL_PATH)/../LICENSE
-
-test_source_directory := $(LOCAL_PATH)/src/test/java
-
-test_runtime_libraries := \
-  Robolectric_resources_tests
-
-include external/robolectric-shadows/run_robolectric_module_tests.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:cadb7bbca8d95c5393426f9367142acca366aae4122ab53f9c5b97fa69318760
+size 555

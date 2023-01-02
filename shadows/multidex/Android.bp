@@ -1,26 +1,3 @@
-//#############################################
-// Compile Robolectric shadows multidex
-//#############################################
-
-package {
-    // See: http://go/android-license-faq
-    // A large-scale-change added 'default_applicable_licenses' to import
-    // all of the 'license_kinds' from "external_robolectric-shadows_license"
-    // to get the below license kinds:
-    //   SPDX-license-identifier-MIT
-    default_applicable_licenses: ["external_robolectric-shadows_license"],
-}
-
-java_library_host {
-    name: "Robolectric_shadows_multidex",
-    libs: [
-        "Robolectric_annotations",
-        "Robolectric_shadowapi",
-        "robolectric-host-android-support-multidex",
-        "robolectric-javax.annotation-api-1.2",
-        "robolectric-host-android_all",
-    ],
-    plugins: ["Robolectric_processor"],
-    javacflags: ["-Aorg.robolectric.annotation.processing.shadowPackage=org.robolectric.shadows.multidex"],
-    srcs: ["src/main/java/**/*.java"],
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd774b03b8883fe4ef65ba2368614936022a8b5fc87d96276b4f663565347106
+size 974
